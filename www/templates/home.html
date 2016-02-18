@@ -1,0 +1,17 @@
+<!-- Content -->
+<ion-content ng-controller="home">
+	<div class='container'>
+	 	<h1 class='game-heading logo animated bounceIn' data-fittext >Kartuvės</h1>
+	 	<form class='start-game-form' name="startgame" ng-submit="start(category)" novalidate>
+		  	<select ng-model="category" ng-required="true" class='category-select-box'>
+		  		<option value=''>Pasirinkti Kategoriją</option>
+				<option ng-repeat="cat in categories" value="{{cat.id}}">{{cat.title}}</option>
+		  	</select>
+			<button  type="submit" class="button button-block button-outline button-light meniu" ng-disabled="startgame.$invalid">
+				Pradėti
+            </button>
+            <a class="button button-block button-outline button-stable meniu" ui-sref="records">Rekordai</a>
+	 	</form>
+	</div>
+</ion-content>
+<!-- Content -->

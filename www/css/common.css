@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Typo-comica;
+    src: url('../fonts/Typo_Comica.otf');
+}
+
+@font-face {
+    font-family: Typo-comica-light;
+    src: url('../fonts/Typo_Comica_light.otf');
+}
+@font-face {
+    font-family: Patrick;
+    src: url('../fonts/PatrickHand-Regular.ttf');
+}
+
+.scroll-content{
+ background: url('../img/back.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.container{
+	max-width: 85%;
+	min-width: 300px;
+	margin: auto;
+	text-align: center;
+}
+.container-game{
+  max-width: 100%;
+}
+.game-heading{
+  font-family: Typo-comica-light;
+  text-shadow: 0px 2px 3px rgba(255,255,255, 0.3);
+  color: white;
+}
+.popup-container .popup{
+  width: 55%;
+}

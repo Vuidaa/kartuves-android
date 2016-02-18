@@ -1,0 +1,48 @@
+.letter 
+{
+  font-family: Typo-comica-light;
+  padding: 5px;
+  font-size: 22px; 
+  margin: 0px 2px;
+  background: none;
+  border: none;
+  color: #D9D9D9;
+}
+.points{
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+.letter.ng-leave {
+  animation: fadeOutDown 0.5s;
+}
+.secret{
+  display:inline-block;
+  font-family: Typo-comica;
+  color:#D9D9D9;
+  font-size: 30px;
+  margin: 30px 2px;
+}
+.answered{
+  animation: slideInDown 1s;
+}
+.visible{
+  visibility: hidden;
+}
+.category{
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+.gameZoom{
+  animation: zoomIn 3s;
+}
+.player-name{
+  text-align: center;
+}
+.records-list{
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+.numbers{
+  font-family: Patrick;
+}

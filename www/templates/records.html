@@ -1,0 +1,14 @@
+<!-- Content -->
+<ion-content ng-controller="records">
+	<div class='container'>
+	 	<h1 class='game-heading animated bounceIn' data-fittext>Geriausi rezultatai</h1>
+	 	<div class='records-list'>
+		 	<h4 class='game-heading numbers' ng-repeat="record in records | orderBy:'-points' track by $index">
+		 		{{$index + 1}}.{{record.name}} - {{record.points}} - {{record.category}}
+		 	</h4> 
+	 	</div>
+	 	<br>
+	 	<a class="button button-block button-energized" ui-sref="home">Atgal</a>
+	</div>
+</ion-content>
+<!-- Content -->
